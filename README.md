@@ -7,7 +7,7 @@ This project is for exploring the many ways to implement a interpreter or compil
 I challenge you to generate the fastest method of executing BrainFuck code.
 
 ## Creating your own compiler
-Add a new Class Library project to the prefixed with _BrainFuck.Implementations.{Your name}. You need to implement the __ICompiler__ interface in the _BrainFuck.Core_ project. To change the displayname in the benchmarks override __ToString()__.
+Add a new Class Library project to the prefixed with _BrainFuck.Implementations.{Your name}._ You need to implement the __ICompiler__ interface in the _BrainFuck.Core_ project. To change the displayname in the benchmarks override __ToString()__.
 
 ## Testing
 Create a new test class in the _BrainFuck.Tests_ project with the __[TestClass]__ attribute extending the __TestBase__ class. You only have to implement the __GetCompiler()__ method, the tests are inherited automatically.
