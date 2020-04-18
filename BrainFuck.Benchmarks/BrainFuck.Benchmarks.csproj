@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" Version="0.12.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BrainFuck.Core\BrainFuck.Core.csproj" />
+    <ProjectReference Include="..\BrainFuck.Implementations.Klaasjan.Interpreter\BrainFuck.Implementations.Klaasjan.Interpreter.csproj" />
+    <ProjectReference Include="..\BrainFuck.Implementations.Klaasjan.Roslyn\BrainFuck.Implementations.Klaasjan.Roslyn.csproj" />
+  </ItemGroup>
+
+</Project>
