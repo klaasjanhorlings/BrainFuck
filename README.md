@@ -15,6 +15,9 @@ Create a new test class in the _BrainFuck.Tests_ project with the __[TestClass]_
 ## Benchmarking
 Inside the _BrainFuck.Benchmarks_ project add an instance of your compiler/interpreter to the _Compilers_ enumerable inside the __BrainFuckBenchmarkBase__ class. 
 
+To run the benchmarks set the _BrainFuck.Benchmarks_ project as Startup project and __Run__ (Ctrl+F5) it in __Release__ mode
+
+
 ## Ideas for optimization
 - Replace consecutive +, -, < and > with a single add or subract
 - Replace consecutive ] with single jump (tail call optimization)
