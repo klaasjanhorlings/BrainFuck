@@ -22,3 +22,5 @@ To run the benchmarks set the _BrainFuck.Benchmarks_ project as Startup project 
 - Replace consecutive +, -, < and > with a single add or subract
 - Replace consecutive ] with single jump (tail call optimization)
 - Interpreter only - cache block start and endings
+- Use unsafe code (skip bound checks)
+- Roslyn/Generated code only - GOTO instead of while?
